@@ -1,0 +1,78 @@
+.box{
+    padding: 20px 0;
+    background-color: #000;
+}
+.box-title{
+    text-align: center;
+    color: #fff;
+}
+.site-form{
+    margin-top: 100px;
+}
+.input-group{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-check-input{
+    margin-right: 10px;
+}
+.form-check-label{
+    width: 150px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.site-list{
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.site-item{
+    width: 390px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-btn{
+    width: 50px;
+    padding: 18px;
+    background-image: url("./image/edit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.inner{
+    position: relative;
+}
+.in-left{
+    position: absolute;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left-item{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.edit-form{
+    position: absolute;
+    top: 200px;
+    right: -100px;
+}
